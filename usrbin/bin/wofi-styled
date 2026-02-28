@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+CONFIG="/home/pylorsun/.config/wofi/config/config"
+STYLE="/home/pylorsun/.config/wofi/src/macciato/style.css"
+
+if [[ ! $(pidof wofi) ]]; then
+    wofi --conf "${CONFIG}" --style "${STYLE}"
+else
+    pkill wofi
+fi

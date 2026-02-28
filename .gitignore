@@ -1,0 +1,17 @@
+# 通用
+*.log
+*.cache
+*.bak
+*.tmp
+*.swp
+
+# 可恶的 macOS 随地拉屎
+.DS_Store
+
+# KDE Plasma 它也随地拉屎
+.directory
+
+# runtime 生成文件（虽然不知道做什么用的，但是 GPT 让我加一个）
+state.json
+history
+

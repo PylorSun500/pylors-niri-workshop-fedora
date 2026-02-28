@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+FILES="/home/pylorsun/Applications/gazelletui"
+source $FILES/.venv/bin/activate
+python $FILES/gazelle

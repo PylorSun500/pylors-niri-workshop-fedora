@@ -1,0 +1,25 @@
+@import url("/home/pylorsun/.config/wlogout/catppuccin/themes/mocha/lavender.css");
+
+#lock {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/lock.svg");
+}
+
+#logout {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/logout.svg");
+}
+
+#suspend {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/suspend.svg");
+}
+
+#hibernate {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/hibernate.svg");
+}
+
+#shutdown {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/shutdown.svg");
+}
+
+#reboot {
+    background-image: url("/home/pylorsun/.config/wlogout/catppuccin/icons/wlogout/mocha/lavender/reboot.svg");
+}
