@@ -33,4 +33,5 @@ unset __conda_setup
 alias blender4="$HOME/Documents/Apps/blender-4.5.0-linux-x64/blender"
 alias usrhelpconfig="nvim ~/.usrhelpcontent/usrhelpcmd"
 alias usrhelp="less ~/.usrhelpcontent/usrhelpcmd"
+alias fontnames="fc-list | cut -d: -f2 | sort -u"
 export PATH="$HOME/bin:$PATH"
