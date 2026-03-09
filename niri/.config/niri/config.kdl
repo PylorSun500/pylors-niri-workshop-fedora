@@ -348,6 +348,13 @@ window-rule {
     match app-id="kfontinst"
     open-floating true
 }
+// 将录像桥接程序设置为悬浮窗口，来适应输入法XWayland模式时的工作
+window-rule {
+    match app-id="xwaylandvideobridge"
+    open-floating true
+    max-width 20
+    max-height 20
+}
 
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)

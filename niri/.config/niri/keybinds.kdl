@@ -17,6 +17,7 @@ binds {
     // 自定义快捷键：
     // 快捷开启/关闭中文输入法以避免部分GTK应用程序的问题。也可用于按下两次重启输入
     Mod+F1 { spawn-sh "pkill fcitx5 || fcitx5"; }
+    Mod+Shift+F1 { spawn "xwaylandvideobridge"; }
     Mod+F2 { spawn-sh "pkill waybar || waybar";}
     Mod+Alt+V {spawn "kitty" "--class" "kitty-clipse" "-e" "clipse";}
     
