@@ -19,7 +19,6 @@ binds {
     Mod+F1 { spawn-sh "pkill fcitx5 || fcitx5"; }
     Mod+Shift+F1 { spawn "xwaylandvideobridge"; }
     Mod+F2 { spawn-sh "pkill waybar || waybar";}
-    Mod+Alt+V {spawn "kitty" "--class" "kitty-clipse" "-e" "clipse";}
     
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+T hotkey-overlay-title="启动终端" { spawn "kitty"; }

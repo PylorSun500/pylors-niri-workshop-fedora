@@ -344,9 +344,8 @@ window-rule {
     match title="^重命名$"
     open-floating true
 }
-// 在 kitty 中启动 clipse 时，默认悬浮窗口。
+// 在 kitty 中启动以下程序时，默认悬浮窗口。
 window-rule {
-    match app-id="kitty-clipse"
     match app-id="kitty-gazelle"
     match app-id="kitty-bluetui"
     match app-id="kfontinst"
