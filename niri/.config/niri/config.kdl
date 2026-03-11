@@ -340,6 +340,10 @@ window-rule {
     match app-id=r#"firefox$"# title="^画中画$"
     open-floating true
 }
+window-rule {
+    match title="^重命名$"
+    open-floating true
+}
 // 在 kitty 中启动 clipse 时，默认悬浮窗口。
 window-rule {
     match app-id="kitty-clipse"
@@ -355,7 +359,12 @@ window-rule {
     max-width 20
     max-height 20
 }
-
+// 为 steam 守护窗口设置忽略项，以免其抢占全屏游戏焦点
+window-rule {
+    match app-id="steam_app_$"
+    open-focused false
+    open-floating true
+}
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {

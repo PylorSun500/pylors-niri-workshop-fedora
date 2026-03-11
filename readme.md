@@ -12,7 +12,6 @@
 ### 必须包：
 - niri: 平铺式窗口管理器
 - TUI btop: 性能与进程管理器
-- [*TUI clipse*](https://copr.fedorainfracloud.org/coprs/azandure/clipse): 剪贴板管理器
 - TUI gazelle: 基于 NetworkManager 的，使用 Python 编写的 WiFi 管理器<small>（由于性能原因，该包有待被替换）</small>
 - TUI bluetui: 高性能的 TUI 蓝牙设备管理器
 - CLI fastfetch
@@ -24,7 +23,6 @@
 - APP waybar: 可自由定制的状态栏、dock 或任务栏。
 - APP wlogout: 电源管理（未完成配置，且在日后可能被替换）
 - APP wofi: 支持 Wayland 的菜单管理器。
-- APP Thunar: xfce4 的默认 GUI 文件管理器，但与桌面环境解耦。
 ### 可选包：
 - TUI nnn: 性能极其友好的终端文件资源管理器
 - CLI zsh: 交互式 shell。
