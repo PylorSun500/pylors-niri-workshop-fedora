@@ -18,6 +18,7 @@ layout {
 
     gaps 6
     default-column-display "normal"
+    default-column-width { }
     center-focused-column "never"
     // empty-workspace-above-first
 
@@ -112,7 +113,7 @@ hotkey-overlay {
 
 gestures {
     hot-corners {
-        // off
+        off
     }
 }
 
